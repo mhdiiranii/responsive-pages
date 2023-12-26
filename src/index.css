@@ -1,13 +1,15 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #EDF4FC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Character{
+  background-image: radial-gradient(rgba(102, 175, 165, 0.5) 25%,rgba(102, 175, 165, 0.3) 50% ,#EDF4FC 70%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
